@@ -1,0 +1,33 @@
+dashboard - 2 hrs
+client list - 2 hrs
+doctor - 2 hrs
+inbox - 2 hrs
+notification - 2 hrs
+reports - 2 hrs
+qr generate - 2 hrs
+appointment - 2-3 hrs
+search - 3-4 hrs
+reports - 2-3 hrs
+add client - 3-4 hrs
+find doctor - 3-4
+doctor profile - 3 hr
+add doctor - 3 hr
+validation 5 hr
+
+43 + 10(testing) + 15 (buffer)
+
+setup - 4 hrs 
+login - 5 hrs
+unit testing - 4 hr
+
+
+
+Required Packages -
+React Native
+React Navigation
+Ui-kitten
+npm i react-native-keychain
+redux
+
+
+1) While Installing, i added 1 code in mainActivity.java, provided with "react-navigation getting started section".
