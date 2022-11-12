@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import { View, StyleSheet, Text } from "react-native";
-import ClientComponent from "../components/client/Client";
+import ClientContainer from "../containers/ClientContainer";
 
-const ClientPage = () => {
+const ClientPage = ({navigation, route}) => {
     useEffect(() => {
         console.log("home container js");
     });
     return (
         <View style={styles.container}>
-            <ClientComponent />
+            <ClientContainer navigation={navigation} routeParams={route.params} />
         </View>
     )
 }

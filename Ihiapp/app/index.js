@@ -19,6 +19,7 @@ import NotificationPage from './pages/Notification';
 import QrgeneratorPage from './pages/Qrgenerator';
 import ReportPage from './pages/Report';
 import InboxPage from './pages/Inbox';
+import AddClientPage from './components/client/AddClient';
 
 const LogInScreen = ({ route, navigation }) => (<LogInPage navigation={navigation} routeParams={route.params} />)
 const ForgotPasswordScreen = ({ route, navigation }) => (<ForgotPasswordPage navigation={navigation} routeParams={route.params} />)
@@ -35,6 +36,7 @@ const NotificationScreen = ({ route, navigation }) => (<NotificationPage navigat
 const QrgeneratorScreen = ({ route, navigation }) => (<QrgeneratorPage navigation={navigation} routeParams={route.params} />)
 const ReportScreen = ({ route, navigation }) => (<ReportPage navigation={navigation} routeParams={route.params} />)
 const InboxScreen = ({ route, navigation }) => (<InboxPage navigation={navigation} routeParams={route.params} />)
+const AddClientScreen = ({ route, navigation }) => (<AddClientPage navigation={navigation} routeParams={route.params} />)
 
 
 
@@ -71,6 +73,7 @@ function App(props) {
                 <Stack.Screen name="Notification" component={NotificationScreen}  options={{headerShown: false}} />
                 <Stack.Screen name="Qrgenerator" component={QrgeneratorScreen}  options={{headerShown: false}} />
                 <Stack.Screen name="Report" component={ReportScreen}  options={{headerShown: false}} />
+                <Stack.Screen name="AddClient" component={AddClientScreen}  options={{headerShown: false}} />
               </>
             )
           }

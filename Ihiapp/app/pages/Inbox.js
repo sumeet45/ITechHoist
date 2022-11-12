@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Text } from "react-native";
 
 // custom css and JS
+import InboxContainer from "./../containers/InboxContainer";
 
 // third party plugins
 
@@ -12,7 +13,7 @@ const InboxPage = () => {
     });
     return (
         <View style={styles.container}>
-            <Text>Inbox</Text>
+            <InboxContainer />
         </View>
     )
 }

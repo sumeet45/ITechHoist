@@ -31,3 +31,10 @@ redux
 
 
 1) While Installing, i added 1 code in mainActivity.java, provided with "react-navigation getting started section".
+
+
+infocafric@mailinator.com/Test@123
+testdoctor@mailinator.com/Test@123
+testusermail@mailinator.com/Test@123
+
+react-native-form-component

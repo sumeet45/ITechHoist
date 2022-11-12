@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Text } from "react-native";
+import globalStyles from '../../assets/css/global';
 
 // custom css and JS
 
@@ -13,7 +14,14 @@ const Inbox = () => {
     });
     return (
         <View style={styles.container}>
-            <Text>Inbox</Text>
+            <View style={[{ flexDirection: "row" }]}>
+                <View style={[{ flex: 1, alignItems: "center", paddingBottom: 10 }, { borderBottomColor: "red", borderBottomWidth: 8 }]}>
+                    <Text style={[ globalStyles.textStyle ]}>Messages</Text>
+                </View>
+                <View style={[{ flex: 1, alignItems: "center", paddingBottom: 10 }, { borderBottomColor: "red", borderBottomWidth: 8 }]}>
+                    <Text style={[ globalStyles.textStyle ]}>Sent</Text>
+                </View>
+            </View>
         </View>
     )
 }
